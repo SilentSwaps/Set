@@ -1,8 +1,8 @@
 declare global {
   interface Set<T> {
-	/** Checks if all given elements are present in the set. */
+    /** Checks if all given elements are present in the set. */
     includes(o: T[]): boolean;
-	/** Checks if only some given elements are present in the set. */
+    /** Checks if only some given elements are present in the set. */
     some(o: T[]): boolean;
   }
 }

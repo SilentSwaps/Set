@@ -1,6 +1,6 @@
 {
 	"name": "extended-set",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Extra utility methods for Set",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
