@@ -1,7 +1,7 @@
 {
-	"name": "set-ext",
-	"version": "1.0.0",
-	"description": "Extra methods for Set",
+	"name": "extended-set",
+	"version": "0.0.1",
+	"description": "Extra utility methods for Set",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
@@ -20,10 +20,15 @@
 	},
 	"keywords": [
 		"set",
-		"utils"
+		"utils",
+		"javascript"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SilentSwaps/Set.git"
+	},
 	"author": "SilentSwaps",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/jest": "^29.4.0",
 		"jest": "^29.4.3",
@@ -31,5 +36,6 @@
 		"ts-jest": "^29.0.5",
 		"tslint": "^6.1.3",
 		"tslint-config-prettier": "^1.18.0"
-	}
+	},
+	"homepage": "https://github.com/SilentSwaps/Set"
 }
